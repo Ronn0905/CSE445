@@ -1,0 +1,58 @@
+
+<Hotel
+    xmlns="http://www.example.org/Hotels"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.org/Hotels 
+      https://YOUR_RAW_URL/Hotels.xsd"
+
+  <Hotel>
+    <Name>ErrorHotel1</Name>
+    <Phone>480-000-0001</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>123</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+
+  <Hotel Rating="4.5">
+    <Name>ErrorHotel2</Name>
+    <Address>
+      <Number>2435</Number>
+      <Street>S 47th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
+
+  
+  <Hotel Rating="4.0">
+    <Name>ErrorHotel3</Name>
+    <Address>
+      <Number>999</Number>
+      <Street>Nowhere Blvd</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>00000</Zip>
+    
+  </Hotel>
+
+  
+  <Hotel Rating="3.5">
+    <Name>ErrorHotel4</Name>
+    <Name>ExtraName</Name>
+    <Phone>111-111-1111</Phone>
+    <Address>
+      <Number>321</Number>
+      <Street>ABC Street</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85200</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
